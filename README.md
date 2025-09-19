@@ -248,8 +248,38 @@ These changes improve **training stability**, **convergence speed**, and **gener
   - Reached **99.1%** after ~19 epochs   
 
 - **Test Accuracy:**  
-  - Approached **99.4%** after first 5 epochs then 
+  - Approached **99.4%** after first 6 epochs then 
  
   ## 🔍 Observations after iteration 4
 
 -Test accuracy keeps increasing with epochs numbers
+
+Epoch 1
+Train: Loss=0.1812 Batch_id=468 Accuracy=92.21: 100%|██████████| 469/469 [00:30<00:00, 15.59it/s]
+
+Test set: Average loss: 0.0007, Accuracy: 9722/10000 (97.22%)
+
+Epoch 2
+Train: Loss=0.0452 Batch_id=468 Accuracy=97.38: 100%|██████████| 469/469 [00:29<00:00, 15.72it/s]
+
+Test set: Average loss: 0.0003, Accuracy: 9868/10000 (98.68%)
+
+Epoch 3
+Train: Loss=0.0539 Batch_id=468 Accuracy=97.83: 100%|██████████| 469/469 [00:29<00:00, 15.64it/s]
+
+Test set: Average loss: 0.0004, Accuracy: 9831/10000 (98.31%)
+
+Epoch 4
+Train: Loss=0.0574 Batch_id=468 Accuracy=98.12: 100%|██████████| 469/469 [00:29<00:00, 15.73it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 9889/10000 (98.89%)
+
+Epoch 5
+Train: Loss=0.0455 Batch_id=468 Accuracy=98.26: 100%|██████████| 469/469 [00:30<00:00, 15.45it/s]
+
+Test set: Average loss: 0.0002, Accuracy: 9915/10000 (99.15%)
+
+Epoch 6
+Train: Loss=0.0065 Batch_id=468 Accuracy=98.67: 100%|██████████| 469/469 [00:29<00:00, 15.78it/s]
+
+Test set: Average loss: 0.0001, Accuracy: 9941/10000 (99.41%)
